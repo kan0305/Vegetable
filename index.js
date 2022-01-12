@@ -1,5 +1,7 @@
 // JSON 檔案網址
-const url = "https://data.coa.gov.tw/Service/OpenData/FromM/FarmTransData.aspx";
+//原始資料出處
+// const url = "https://data.coa.gov.tw/Service/OpenData/FromM/FarmTransData.aspx";
+const url = "https://hexschool.github.io/js-filter-data/data.json";
 const productsList = document.querySelector(".showList");
 const buttonGroup = document.querySelector(".button-group");
 let data = []; //原始資料
